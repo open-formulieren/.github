@@ -1,4 +1,4 @@
-![Maykin](https://github.com/formulieren/.github/blob/main/profile/banner.png)
+![Maykin](https://github.com/open-formulieren/.github/blob/main/profile/banner.png)
 
 <div align="center">
   <a href="https://open-forms.readthedocs.io/" target="_blank">📖 Documentatie</a>
