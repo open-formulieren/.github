@@ -232,5 +232,24 @@
         true
       ]
     ]
+  },
+  {
+    "name": "custom var defaults behaviour",
+    "cases": [
+      [{"var": ["a", 1]}, {"a": null}, 1],
+      [{"var": ["a", 1]}, {"a": 3}, 3]
+    ]
+  },
+  {
+    "name": "custom math behaviour",
+    "cases": [
+      [{"+": [null, 5]}, {}, null],
+      [{"-": [null, 5]}, {}, null],
+      [{"*": [null, 5]}, {}, null],
+      [{"/": [null, 5]}, {}, null],
+      [{"%": [null, 5]}, {}, null],
+      [{"min": [null, 5]}, {}, null],
+      [{"max": [null, 5]}, {}, null]
+    ]
   }
 ]
