@@ -1,4 +1,8 @@
-![Maykin](https://github.com/open-formulieren/.github/blob/main/profile/banner.png)
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="banner-darkmode.png">
+ <source media="(prefers-color-scheme: light)" srcset="banner-lightmode.png">
+ <img alt="Maykin / Open Formulieren" src="banner-lightmode.png">
+</picture>
 
 <div align="center">
   <a href="https://open-forms.readthedocs.io/" target="_blank">📖 Documentatie</a>
