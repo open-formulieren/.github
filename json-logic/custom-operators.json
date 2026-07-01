@@ -265,6 +265,15 @@
     ]
   },
   {
+    "name": "substr operator",
+    "cases": [
+      [{ "substr": [{ "var": "a" }, 2, 3] }, { "a": "a string" }, "str"],
+      [{ "substr": [{ "var": "a" }, 2, 3] }, {}, null],
+      [{ "substr": [{ "var": "a" }, 2, 3] }, { "a": null }, null],
+      [{ "substr": [{ "var": "a" }, 2, 3] }, { "v": "a string" }, null]
+    ]
+  },
+  {
     "name": "custom math behaviour",
     "cases": [
       [{"+": [null, 5]}, {}, null],
